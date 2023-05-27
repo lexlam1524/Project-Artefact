@@ -2,8 +2,8 @@ import time
 import paho.mqtt.client as mqtt
 import RPi.GPIO as GPIO
 
-broker_address = "mqtt.mqttx.app"  # Replace with the mqttx.app broker address
-broker_port = 1883  # Replace with the appropriate port number
+broker_address = "broker.emqx.io"  
+broker_port = 1883  
 topic = "SIT210/medicine"
 buzzer_pin = 17
 
